@@ -8,8 +8,6 @@ This is the testing branch of hebOCR
 ------------------------------------
 hebOCR testing, hebocr testing repository for new hebocr development versions. 
 
-https://github.com/yaacov/hebocr
-
 Stable branch
 -------------
 hebOCR library stable branch can be found:
