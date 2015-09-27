@@ -1,8 +1,8 @@
-hebOCR:
-------
+hebOCR-testing:
+---------------
 hebOCR is a Hebrew character recognition library
 
-https://github.com/yaacov/hebocr
+https://github.com/yaacov/hebocr-tesint
 
 This is the testing branch of hebOCR
 ------------------------------------
@@ -12,7 +12,10 @@ Stable branch
 -------------
 hebOCR library stable branch can be found:
 
-https://code.google.com/p/hebocr/
+https://github.com/yaacov/hebocr
+
+Desktop application using hebOCR library
+--------------------------------------
 
 https://code.google.com/p/qhocr/
 
