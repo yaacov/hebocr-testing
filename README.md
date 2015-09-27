@@ -2,7 +2,7 @@ hebOCR-testing:
 ---------------
 hebOCR is a Hebrew character recognition library
 
-https://github.com/yaacov/hebocr-testint
+https://github.com/yaacov/hebocr-testing
 
 This is the testing branch of hebOCR
 ------------------------------------
