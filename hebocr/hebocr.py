@@ -268,9 +268,8 @@ def main():
             sw = sorted(stats[1:], key=lambda x: -x[0])
             for k, stat in enumerate(sw):
                 x, y, cw, ch, _a = stat
-
-                _ret, th = cv2.threshold(gray[y:y+ch, x:x+cw], 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
-                cv2.imwrite('./fonts/{}.{}.{}.png'.format(i, j, k), th)
+                cv2.imwrite('./fonts/{}.{}.{}.png'.format(i, j, k),
+                            gray[y:y+ch, x:x+cw])
 
                 cv2.putText(img, 'W{}'.format(k), (x, y), FONT, 0.5,
                             (0, 0, 255), 1, cv2.LINE_AA)
