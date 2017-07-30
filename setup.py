@@ -13,8 +13,15 @@ setup(
     license="GPL",
     author="yaacov",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        "opencv-python",
+        "keras",
+        'pylint',
+    ],
     long_description=long_description,
+    entry_points = {
+        'console_scripts': ['hebocr=hebocr.hebocr:main'],
+    },
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
